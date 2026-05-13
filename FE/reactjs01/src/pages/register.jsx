@@ -41,8 +41,8 @@ const RegisterPage = () => {
                 <UserAddOutlined />
               </div>
               <div>
-                <h1>Dang ky tai khoan</h1>
-                <p>Tao tai khoan moi de thu nghiem JWT auth.</p>
+                <h1>Đăng kí tài khoản</h1>
+                <p>Tạo tài khoản để trải nghiêm</p>
               </div>
             </div>
 
@@ -105,17 +105,17 @@ const RegisterPage = () => {
 
               <Form.Item>
                 <Button type="primary" htmlType="submit" size="large" block>
-                  Tao tai khoan
+                  Tạo tài khoản
                 </Button>
               </Form.Item>
             </Form>
 
             <Link to="/" className="back-link">
-              <ArrowLeftOutlined /> Quay lai trang chu
+              <ArrowLeftOutlined /> Quay lại trang chủ
             </Link>
             <Divider />
             <div className="auth-switch">
-              Da co tai khoan? <Link to="/login">Dang nhap</Link>
+              Đã có tài khoản? <Link to="/login">Đăng nhập</Link>
             </div>
           </div>
         </Col>

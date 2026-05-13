@@ -30,8 +30,8 @@ const Header = () => {
 
   const selectedKey = location.pathname === "/user" ? "user" : "home";
   const accountLabel = auth.isAuthenticated
-    ? auth?.user?.name || auth?.user?.email || "Tai khoan"
-    : "Tai khoan";
+    ? auth?.user?.name || auth?.user?.email || "Tài khoản"
+    : "Tài khoản";
 
   const items = [
     {
@@ -55,19 +55,19 @@ const Header = () => {
       children: auth.isAuthenticated
         ? [
             {
-              label: <span onClick={handleLogout}>Dang xuat</span>,
+              label: <span onClick={handleLogout}>Đăng xuất</span>,
               key: "logout",
               icon: <LogoutOutlined />,
             },
           ]
         : [
             {
-              label: <Link to="/login">Dang nhap</Link>,
+              label: <Link to="/login">Đăng nhập</Link>,
               key: "login",
               icon: <LoginOutlined />,
             },
             {
-              label: <Link to="/register">Dang ky</Link>,
+              label: <Link to="/register">Đăng ký</Link>,
               key: "register",
               icon: <UserAddOutlined />,
             },

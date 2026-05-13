@@ -51,8 +51,8 @@ const LoginPage = () => {
                 <LoginOutlined />
               </div>
               <div>
-                <h1>Dang nhap</h1>
-                <p>Su dung tai khoan de truy cap danh sach user.</p>
+                <h1>Đăng nhập</h1>
+                <p>Sử dụng tài khoản để truy cập danh sách user</p>
               </div>
             </div>
 
@@ -98,17 +98,17 @@ const LoginPage = () => {
 
               <Form.Item>
                 <Button type="primary" htmlType="submit" size="large" block>
-                  Dang nhap
+                  Đăng nhập
                 </Button>
               </Form.Item>
             </Form>
 
             <Link to="/" className="back-link">
-              <ArrowLeftOutlined /> Quay lai trang chu
+              <ArrowLeftOutlined /> Quay lại trang chủ
             </Link>
             <Divider />
             <div className="auth-switch">
-              Chua co tai khoan? <Link to="/register">Dang ky tai day</Link>
+              Chưa có tài khoản? <Link to="/register">Đăng kí</Link>
             </div>
           </div>
         </Col>

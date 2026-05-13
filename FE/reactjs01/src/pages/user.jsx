@@ -50,8 +50,8 @@ const UserPage = () => {
       <div className="page-title">
         <div>
           <span className="eyebrow">Quan tri</span>
-          <h1>Danh sach user</h1>
-          <p>Theo doi tai khoan da dang ky trong he thong.</p>
+          <h1>Danh sách user</h1>
+          <p>Theo dõi.</p>
         </div>
         <div className="title-icon">
           <TeamOutlined />
@@ -62,7 +62,7 @@ const UserPage = () => {
         className="users-alert"
         type="info"
         showIcon
-        message="Du lieu duoc lay tu API /v1/api/user"
+        message="Dữ liệu được lấy từ API /v1/api/user"
       />
 
       <Table

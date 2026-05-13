@@ -35,7 +35,7 @@ function App() {
       {appLoading === true ?
         <div className="app-loading">
           <Spin />
-          <span>Dang tai du lieu...</span>
+          <span>Đang tải dữ liệu...</span>
         </div>
         :
         <>

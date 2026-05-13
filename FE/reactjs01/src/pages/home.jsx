@@ -17,13 +17,12 @@ const HomePage = () => {
             <span className="eyebrow">React + NodeJS</span>
             <h1>JWT Auth Demo</h1>
             <p>
-              Giao dien test dang nhap, dang ky va goi API co bao ve bang
-              access token.
+              Giao diện đăng nhập
             </p>
             <div className="home-actions">
               <Link to="/login">
                 <Button type="primary" size="large" icon={<LoginOutlined />}>
-                  Dang nhap
+                  Đăng nhập
                 </Button>
               </Link>
               <Link to="/user">
